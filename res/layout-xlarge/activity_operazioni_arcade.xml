@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/sfondo_gioco_operazioni1"
+    tools:context=".ActivityOperazioni" 
+    android:id="@+id/activity_operazioni_arcade"> <!-- Ho aggiunto questa riga con l'id per poter utilizzare il layout-->
+                                           <!-- nella classe Operazioni.java-->
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout_interno_a_activity_operazioni"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false" >
+        
+        <ProgressBar
+            android:id="@+id/ProgressBarTimer"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/mia_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="122dp" />
+
+        <TextView
+            android:id="@+id/testo_operazione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="82dp"
+            android:gravity="center_horizontal"
+            android:textSize="102sp"  />
+
+        
+    
+       <LinearLayout
+            android:id="@+id/LinearLayout_molto_interno_a_activity_operazioni"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/testo_operazione"
+            android:orientation="horizontal"
+            android:baselineAligned="false" >
+        
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+            
+                <Button
+                    android:id="@+id/ButtonRisultato1"
+                    android:layout_width="292dp"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="92sp"
+                    android:layout_weight="1" />
+    
+                <Button
+                    android:id="@+id/ButtonRisultato2"
+                    android:layout_width="292dp"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="102sp"
+                    android:layout_weight="1" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+                
+                <Button
+                    android:id="@+id/ButtonRisultato3"
+                    android:layout_width="292dp"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="102sp"
+                    android:layout_weight="1" />
+        
+                <Button
+                    android:id="@+id/ButtonRisultato4"
+                    android:layout_width="292dp"
+                    android:layout_height="265dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="102sp"
+                    android:layout_weight="1" />
+            
+            </LinearLayout>
+       
+       </LinearLayout>
+    
+    
+   </LinearLayout>
+
+    
+
+</RelativeLayout>

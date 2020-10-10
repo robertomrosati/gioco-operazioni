@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/sfondo_gioco_operazioni1"
+    tools:context=".ActivityOperazioniChallenge"
+    android:id="@+id/activity_operazioni_challenge" >
+
+      <LinearLayout
+        android:id="@+id/LinearLayout_interno_a_activity_operazioni_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal"
+            android:baselineAligned="false"  >
+              
+           	<TextView
+           	    android:id="@+id/timer_challenge"
+           	    android:layout_width="match_parent"
+           	    android:layout_height="wrap_content"
+           	    android:layout_weight="2"
+           	    android:textColor="#FC1501"
+           	    android:textSize="25sp"
+           	    android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/punteggio_challenge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="score = 0 pt"
+                android:textColor="#003EFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+              
+        </LinearLayout>
+          
+        
+          
+        <TextView
+            android:id="@+id/testo_operazione_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:textSize="50sp"  />
+
+        
+    
+       <LinearLayout
+            android:id="@+id/LinearLayout_molto_interno_a_activity_operazioni_challenge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/testo_operazione"
+            android:orientation="horizontal"
+            android:baselineAligned="false" >
+        
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+            
+                <Button
+                    android:id="@+id/ButtonRisultato1_challenge"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="45sp"
+                    android:layout_weight="1" />
+    
+                <Button
+                    android:id="@+id/ButtonRisultato2_challenge"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="45sp"
+                    android:layout_weight="1" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+                
+                <Button
+                    android:id="@+id/ButtonRisultato3_challenge"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:layout_marginTop="15dp"
+                    android:textSize="45sp"
+                    android:layout_weight="1" />
+        
+                <Button
+                    android:id="@+id/ButtonRisultato4_challenge"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/mio_button_selector"
+                    android:textSize="45sp"
+                    android:layout_weight="1" />
+            
+            </LinearLayout>
+       
+       </LinearLayout>
+    
+    
+   </LinearLayout>
+
+    
+
+
+</RelativeLayout>

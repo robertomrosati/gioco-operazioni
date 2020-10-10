@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gioco Operazioni</string>
+    <string name="action_settings">Settings</string>
+    <string name="iniziamo">INIZIAMO!</string>
+    <string name="title_activity_operazioni">Operazioni</string>
+    <string name="difficolta">Scegli la difficoltà alla quale desideri giocare, e poi premi &quot;INIZIA!&quot; per incominciare!</string>
+    <string name="difficolta_scelta">LIVELLO</string>
+    <string name="title_activity_scelta_difficolta_operazioni">SceltaDifficoltaOperazioni</string>
+    <string name="title_activity_scelta_operatore">SceltaOperatore</string>
+    <string name="scelta_operatore">Che categoria di operazioni vuoi fare?</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_activity_equazioni">ActivityEquazioni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="challenge">CHALLENGE</string>
+    <string name="arcade">ARCADE</string>
+    <string name="title_activity_activity_operazioni_challenge">ActivityOperazioniChallenge</string>
+    <string name="scelta_operatore_addizioni">+ Addizioni +</string>
+    <string name="scelta_operatore_sottrazioni">- Sottrazioni -</string>
+    <string name="scelta_operatore_moltiplicazioni">* Moltiplicazioni *</string>
+    <string name="scelta_operatore_divisioni">÷ Divisioni ÷</string>
+    <string name="scelta_operatore_misto">+ - Misto * ÷</string>
+    <string name="scelta_operatore_equazioni">= Equazioni =</string>
+	<string name="warning_difficolta">ATTENZIONE:\ndevi scegliere il livello prima di iniziare a giocare!</string>
+    <string name="difficolta_sceltaPt1">LIVELLO SELEZIONATO: </string>
+    <string name="difficolta_sceltaPt2">\nPREMI &quot;INIZIA!&quot; PER INCOMINCIARE</string>
+    <string name="inizia">INIZIA!</string>
+	<string name="stringa_statisticaPt1">Hai risposto a </string>
+	<string name="stringa_statisticaPt2"> quesiti in </string>
+	<string name="stringa_statisticaPt3">Tempo medio di risposta: μ(T) = </string>
+	<string name="stringa_statisticaPt4">Varianza: σ²(T) = </string>
+	<string name="stringa_statisticaPt5">S.q.m. = σ(T) = </string>
+    <string name="stringa_challenge_statisticaPt1">Risposte corrette= </string>
+	<string name="stringa_challenge_statisticaPt2">Max risposte corrette di fila= </string>
+	<string name="stringa_challenge_statisticaPt3">Risposte sbagliate= </string>
+	<string name="stringa_challenge_statisticaPt4">Risposte totali date= </string>
+	<string name="stringa_challenge_statisticaPt5">Risposte corrette/risposte totali= </string>
+    <string name="punti"> PUNTI!</string>
+	<string name="continua">CONTINUA</string>
+	<string name="salva">SALVA</string>
+	<string name="torna_menu_principale">TORNA AL MENU PRINCIPALE</string>
+	<string name="complimenti_punteggioPt1">Complimenti, hai ottenuto un punteggio di </string>
+	<string name="complimenti_punteggioPt2">punti\nInserisci il tuo nome:</string>
+	<string name="stringa_operatore_ADD">ADDIZIONI</string>
+	<string name="stringa_operatore_SOT">SOTTRAZIONI</string>
+	<string name="stringa_operatore_MOL">MOLTIPLICAZIONI</string>
+	<string name="stringa_operatore_DIV">DIVISIONI</string>
+	<string name="stringa_operatore_MIX">OPER. MISTE</string>
+	<string name="stringa_operatore_EQU">EQUAZIONI</string>
+	<string name="versione_a_pagamento">Purtroppo devi comprare la versione a pagamento per accedere a questo contenuto. Però è molto economica e sarebbe un\'ottimo investimento per tenere allenato il tuo cervello, io la penso così. E tu? :)</string>
+	
+</resources>

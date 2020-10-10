@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo_scelta_difficolta"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivitySceltaDifficoltaOperazioni" >
+
+    <TextView
+        android:id="@+id/testo_difficolta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/difficolta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android1:id="@+id/linearLayout1"
+        android1:layout_width="match_parent"
+        android1:layout_height="93dip"
+        android1:layout_alignParentRight="true"
+        android1:layout_below="@+id/testo_difficolta"
+        android1:orientation="horizontal" >
+
+        <Button
+            android1:id="@+id/ButtonDiff1"
+            android1:layout_width="50dp"
+            android1:layout_height="93dp"
+            android1:layout_weight="1"
+            android1:background="@drawable/mio_button_circolare_verde_selector"
+            android1:text="1"
+        	android1:textSize="63sp"
+        	android1:textStyle="bold" />
+
+        <Button
+            android1:id="@+id/ButtonDiff2"
+            android1:layout_width="50dp"
+            android1:layout_height="93dp"
+            android1:layout_weight="1"
+            android1:background="@drawable/mio_button_circolare_verde_selector"
+            android1:text="2"
+        	android1:textSize="63sp"
+        	android1:textStyle="bold" />
+
+        <Button
+            android1:id="@+id/ButtonDiff3"
+            android1:layout_width="50dp"
+            android1:layout_height="93dp"
+            android1:layout_weight="1"
+            android1:background="@drawable/mio_button_circolare_verde_selector"
+            android1:text="3"
+      	    android1:textSize="63sp"
+     	    android1:textStyle="bold" />
+
+        <Button
+            android1:id="@+id/ButtonDiff4"
+            android1:layout_width="50dp"
+            android1:layout_height="93dp"
+            android1:layout_weight="1"
+            android1:background="@drawable/mio_button_circolare_verde_selector"
+            android1:text="4"
+        	android1:textSize="63sp"
+        	android1:textStyle="bold" />
+
+        <Button
+            android1:id="@+id/ButtonDiff5"
+            android1:layout_width="50dp"
+            android1:layout_height="93dp"
+            android1:layout_weight="1"
+            android1:background="@drawable/mio_button_circolare_verde_selector"
+            android1:text="5"
+        	android1:textSize="63sp"
+        	android1:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android1:id="@+id/tasto_scelta_difficolta"
+        android:layout_width="600dp"
+        android1:layout_height="385dp"
+        android1:layout_below="@+id/linearLayout1"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="56dp"
+        android1:background="@drawable/mio_button_selector"
+        android1:text="INIZIA!"
+        android1:textSize="60sp"
+        android1:textStyle="bold" />
+
+</RelativeLayout>
